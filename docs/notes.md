@@ -10,7 +10,7 @@ Markets are driven by three forces:
 2.  **Fundamentals ("The Engine")**: Earnings and Credit Cycles determine the long-term trend.
 3.  **Sentiment ("The Waves")**: Fear and Greed (Vol, Rates) drive short-term price action.
 
-This system is designed to quantify all three using a rigorous, event-driven architecture.
+This system is designed to quantify all three using, event-driven architecture.
 
 ---
 
@@ -42,7 +42,7 @@ The system consists of numbered notebooks that **must** be run in sequence.
     *   **Goldilocks**: High Growth, Low Inflation (Buy Equities).
     *   **Reflation**: High Growth, High Inflation (Buy Commodities).
     *   **Stagflation**: Low Growth, High Inflation (Cash is King).
-    *   **Deflation**: Low Growth, Low Inflation (Buy Bonds).
+    *   **Deflation**: Low Growth, Low Inflation (Buy Bonds)
 
 ---
 
@@ -71,13 +71,3 @@ Look at the **Credit Impulse**.
 *   **Falling**: The economy is slowing. Banks are tightening. Defensive rotation needed.
 
 ---
-
-## 4. Maintenance
-*   **Monthly**: Download the latest RBI DBIE data and run `00D` and `00F`.
-*   **Weekly**: Run `00E` to update the FCI with latest Yields and FX data.
-*   **Daily**: The dashboard will auto-update if you have a live feed for the `data_raw` files (e.g., automated scraper).
-
----
-
-## 5. Educational Note
-This framework replicates the **workflow** of a macro hedge fund, but it is a research tool. Real trading requires risk management, execution algorithms, and proprietary data that are outside the scope of this open-source project.
