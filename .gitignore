@@ -14,12 +14,9 @@ env/
 venv/
 ENV/
 
-# Data (Exclude large processed datasets, but keep raw for reproducibility)
+# Avoid processed data
 data_processed/
 *.parquet
-*.csv
-*.xls
-*.xlsx
 
 # IDEs
 .vscode/

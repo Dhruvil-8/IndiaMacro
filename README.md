@@ -2,14 +2,13 @@
 ---
 
 ## 1. Executive Summary
-This project implements an end-to-end **Macro Research System** designed for rigorous economic analysis this framework focuses on **Leading Indicators**, **Structural Liquidity**, and **Financial Conditions**.
+This project implements an end-to-end **Macro Research System** designed for economic analysis this framework focuses on **Leading Indicators**, **Structural Liquidity**, and **Financial Conditions**.
 
 The system ingests raw economic data, transforms it into structured signal-processing modules, and visualizes it in an interactive dashboard (`dashboard.py`).
 
 ---
 
 ## 2. Data Sources
-Data Source
 
 ### A. Reserve Bank of India (RBI)
 *   **Source**: [RBI Database on Indian Economy (DBIE)](https://data.rbi.org.in/DBIE/#/dbie/home)
@@ -37,19 +36,19 @@ The system is built on a 7-Layer Pipeline:
 
 ---
 
-## 4. Advanced Analysis Modules
+## 4. Analysis Modules
 
 We have enhanced the standard economic model with three specialized research modules:
 
-### A. The "Flows & Positioning" Module (`00D`)
+### A. The "Flows & Positioning" Module
 *   **Methodology**: Tracks Net Portfolio Investment (BoP) and FDI via a **Rolling 3-Year Liquidity Z-Score**.
 *   **Insight**: Helps distinguish between flow-driven market regimes and fundamental trends.
 
-### B. The "Nowcasting" Module (`00E`)
+### B. The "Nowcasting" Module 
 *   **Methodology**: A **Financial Conditions Index (FCI)** aggregating Cost of Capital (10Y Yields), Banking Stress (Call Rates), and External Vulnerability (FX Reserves).
 *   **Insight**: Acts as a weekly gauge for overall financial system stress.
 
-### C. The "Monetary & Banking" Module (`00F`)
+### C. The "Monetary & Banking" Module
 *   **Methodology**:
     *   **Credit Impulse**: The *change in the change* of credit flow.
     *   **Fiscal Dominance**: Monitoring Government vs. Private sector credit usage.
@@ -88,10 +87,7 @@ We have enhanced the standard economic model with three specialized research mod
 ## 7. Development Story
 This project represents a hybrid AI-Human collaboration:
 *   **Phase 1 (Planning)**: Conceptualization and architectural design were brainstormed using **ChatGPT**.
-*   **Phase 2 (Execution)**: The entire codebase, logic implementation, and debugging were autonomously executed by **Antigravity** (Google DeepMind's Advanced Agentic Coding Assistant).
-
-## 8. Data & Reproducibility
-We have included the `data_raw/` directory in this repository. This allows anyone to clone the repo and immediately rebuild the entire project state (Layers 0-6) without needing to re-scrape the original data sources.
+*   **Phase 2 (Execution)**: The entire codebase, logic implementation, and debugging were autonomously executed by **Antigravity** (Google DeepMind's Advanced Agentic Coding Assistant)
 
 > [!IMPORTANT]
 > **Educational Purpose Only**: This project is for educational and research purposes. It does not constitute financial advice. The models and signals generated are experimental.
